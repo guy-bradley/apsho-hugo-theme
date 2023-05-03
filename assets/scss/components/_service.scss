@@ -11,13 +11,14 @@
           svg {
             path {
               &:first-child {
-                fill: #ffecee;
+                fill: #CCD7ED;
               }
             }
           }
         }
         &::after {
-          background: rgb(255, 187, 193);
+          background: 
+          rgb(237, 199, 192);
         }
       }
     }
@@ -27,7 +28,7 @@
           svg {
             path {
               &:first-child {
-                fill: #e8f1ff;
+                fill: #EDD8A8;
               }
             }
           }
@@ -43,13 +44,13 @@
           svg {
             path {
               &:first-child {
-                fill: #fff7d8;
+                fill: #B4EDD5; 
               }
             }
           }
         }
         &::after {
-          background: rgb(254, 231, 140);
+          background: rgb(180, 237, 181);
         }
       }
     }
