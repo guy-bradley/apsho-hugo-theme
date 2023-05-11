@@ -1,6 +1,6 @@
-{{ with .Site.Data.feature }}
+{{ with .Site.Data.app }}
   {{ if .enable }}
-    <section class="feature" id="feature">
+    <section class="feature" id="app">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -34,9 +34,9 @@
               <p>
                 {{ .description2 }}
               </p>
-              <a href="#" data-text={{ .buttonText }} class="btn btn-primary">
+              <!--<a href="#" data-text={{ .buttonText }} class="btn btn-primary">
                 <span>{{ .buttonText }}</span>
-              </a>
+              </a>-->
             </div>
           </div>
         </div>
